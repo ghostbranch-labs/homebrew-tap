@@ -4,28 +4,28 @@
 class Ghostbranch < Formula
   desc "Private branches for public GitHub repos"
   homepage "https://ghostbranch.site"
-  version "0.1.0-rc.1"
+  version "0.1.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/ghostbranch-labs/ghostbranch/releases/download/v0.1.0-rc.1/ghostbranch_0.1.0-rc.1_darwin_arm64.tar.gz"
-      sha256 "a14cc5d3643df4c7973fb08c3b2e29880fa76b7d83b634bac796138026721390"
+      url "https://github.com/ghostbranch-labs/ghostbranch/releases/download/v0.1.0/ghostbranch_0.1.0_darwin_arm64.tar.gz"
+      sha256 "0565b69aca5c1e071691a82c0abf75a642ddf78e568dafcb1d4923d59789be12"
     end
     on_intel do
-      url "https://github.com/ghostbranch-labs/ghostbranch/releases/download/v0.1.0-rc.1/ghostbranch_0.1.0-rc.1_darwin_amd64.tar.gz"
-      sha256 "ccbf0838009fc8ad611121111d8665af0fbb0fd4ad9b9e76d8333dce4f34e3af"
+      url "https://github.com/ghostbranch-labs/ghostbranch/releases/download/v0.1.0/ghostbranch_0.1.0_darwin_amd64.tar.gz"
+      sha256 "6ac1bc48e7f4f3d2d5c4adc83af27f0b42f0a5b0a96290a305390446d3bb90ef"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ghostbranch-labs/ghostbranch/releases/download/v0.1.0-rc.1/ghostbranch_0.1.0-rc.1_linux_arm64.tar.gz"
-      sha256 "45d9254d55742c88379d15c7f8585317f5a8267fb878ea30cd804669ea3254a0"
+      url "https://github.com/ghostbranch-labs/ghostbranch/releases/download/v0.1.0/ghostbranch_0.1.0_linux_arm64.tar.gz"
+      sha256 "3892ec900c8836e2110c8712f8a8ead296a6979253d3a2dfe054a77aaa138cfb"
     end
     on_intel do
-      url "https://github.com/ghostbranch-labs/ghostbranch/releases/download/v0.1.0-rc.1/ghostbranch_0.1.0-rc.1_linux_amd64.tar.gz"
-      sha256 "accb8e39a377c59178bfaea98bccdce89a77fc364543bf7d4510c430ce302854"
+      url "https://github.com/ghostbranch-labs/ghostbranch/releases/download/v0.1.0/ghostbranch_0.1.0_linux_amd64.tar.gz"
+      sha256 "11a5dee22cb1be57ae17f5c47d493d5c53021fa30ba55500cd14bc5ff08bddf5"
     end
   end
 
